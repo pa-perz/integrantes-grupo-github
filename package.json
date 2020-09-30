@@ -1,0 +1,27 @@
+{
+  "name": "integrantes-grupo-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve src/index.html --port 8000 --open",
+    "build": "parcel build src/index.html --public-url /integrantes-grupo-github/ -d build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pa-perz/integrantes-grupo-github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pa-perz/integrantes-grupo-github/issues"
+  },
+  "homepage": "https://github.com/pa-perz/integrantes-grupo-github#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
